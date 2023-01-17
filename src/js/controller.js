@@ -124,6 +124,7 @@ const newFeature = function() {
 }
 
 const init = function () {
+  // Added comment
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
   recipeView.addHandlerUpdateServings(controlServings);
